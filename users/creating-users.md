@@ -24,7 +24,7 @@ The features of this command includes;
     -Sets default shell `(/bin/bash)`
     -Adds to some default groups (not sudo unless specified)
 
-> 📷 ![adduser](images\adduser.png)
+> 📷 ![adduser](./images/adduser.png)
 
 
 ## 🔹 `useradd` Command
@@ -44,7 +44,7 @@ The features of this command includes;
     -Set the password after creating the user; `sudo passwd linda` you'd then be prompted to set a new a password for the user.
     -Add to groups (eg., sudo); `sudo usermod -aG sudo linda`
 
-> 📷 ![useradd](images/useradd-linda.png)
+> 📷 ![useradd](./images/useradd-linda.png)
 
 ## 🔹 Check Created Users
 
@@ -53,5 +53,5 @@ cat /etc/passwd | grep doe
 cat /etc/passwd | grep linda
 ```
 
-> 📷 ![grep doe](images/grepdoe.png)
-> 📷 ![grep linda](images/greplinda.png)
+> 📷 ![grep doe](./images/grepdoe.png)
+> 📷 ![grep linda](./images/greplinda.png)
